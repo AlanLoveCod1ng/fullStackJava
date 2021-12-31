@@ -42,6 +42,7 @@ public class ThreadDemo {
                 System.out.println("The number is " + i + " from thread " + 1);
             }
         }).start();
+
     }
 }
 
