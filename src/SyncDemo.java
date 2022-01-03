@@ -25,7 +25,7 @@ public class SyncDemo {
 }
 
 class bracket {
-    private Object lock  = "lock";
+    private final Object lock  = "lock";
     void print() {
         synchronized (lock){
             for (int i = 0; i < 10; i++) {
